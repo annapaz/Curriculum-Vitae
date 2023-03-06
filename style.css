@@ -1,0 +1,87 @@
+@keyframes backgroundColorPalette 
+{     
+0% { background: #3a428c; } 25% 
+{ background: #3a868c; } 50% 
+{ background: #3a648c; } 75% 
+{ background: #3e238c; } 100% 
+{ background: #0c7b8c; } 
+}
+
+
+body { 
+			font-family: Arial, sans-serif; 
+			background-color: #1b3752;
+			color: white;
+			visibility: center;
+			overflow:hidden;
+			padding: 10px;
+			
+} 
+#contact{
+    margin-left: 15px;
+}
+header { 
+			animation-name: backgroundColorPalette;
+ 			animation-duration: 20s;
+ 			animation-iteration-count: infinite;
+ 			animation-direction: alternate;
+
+			color: #fff; 
+			padding: 20px;
+			visibility: center;
+			border-radius: 20px;
+			background-color: #21324f;			
+} 
+h1, h2 { 
+			margin: 0; 
+} 
+h1 { 
+			font-size: 36px; 
+} 
+h2 { 
+			font-size: 24px; 
+} 
+section { 
+			margin-top: 20px; 
+} 
+ul { 
+			list-style-type: none; 
+			margin: 0; 
+			padding: 0; 
+} 
+li { 
+			margin-bottom: 10px; 
+} 
+#education li:before { 
+			content: "-"; 
+			margin-right: 10px; 
+} 
+#work-experience li:before { 
+			content: "-"; 
+			margin-right: 10px; 
+} 
+#skills li:before { 
+			content: "-"; 
+			margin-right: 10px; 
+} 
+#achievements li:before { 
+			content: "-";
+			margin-right: 10px; 
+}
+@media only screen and (max-width: 600px) {
+}
+  header {
+    text-align: center;
+} 
+h1 {
+    font-size: 24px;
+}
+h2 {
+    font-size: 18px;
+}
+section {
+    margin-top: 10px;
+}
+li {
+    margin-bottom: 5px;
+}
